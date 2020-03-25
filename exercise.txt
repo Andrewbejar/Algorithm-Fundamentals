@@ -1,0 +1,211 @@
+# exercise 1
+andrew@andrewhp:~$ pwd
+/Home/andrew
+# exercise 2
+andrew@andrewhp:~$ hostname
+andrewhp
+# exercise 3
+andrew@andrewhp:~$ mkdir temp
+andrew@andrewhp:~$ mkdir temp/stuff
+andrew@andrewhp:~$ mkdir temp/stuff/things
+andrew@andrewhp:~$ mkdir -p temp/stuff/things/frank/joe/alex/john
+# exercise 4
+andrew@andrewhp:~$ cd temp
+andrew@andrewhp:~/temp$ pwd
+/home/andrew/temp
+andrew@andrewhp:~/temp$ cd stuff
+andrew@andrewhp:~/temp/stuff$ pwd
+/home/andrew/temp/stuff
+andrew@andrewhp:~/temp/stuff$ cd things
+andrew@andrewhp:~/temp/stuff/things$ pwd
+/home/andrew/temp/stuff/things.
+andrew@andrewhp:~/temp/stuff/things$ cd frank/
+andrew@andrewhp:~/temp/stuff/things/frank$ pwd
+/home/andrew/temp/stuff/things/frank
+andrew@andrewhp:~/temp/stuff/things/frank$ cd joe/
+andrew@andrewhp:~/temp/stuff/things/frank/joe$ pwd
+/home/andrew/temp/stuff/things/frank/joe
+andrew@andrewhp:~/temp/stuff/things/frank/joe$ cd alex/
+andrew@andrewhp:~/temp/stuff/things/frank/joe/alex$ pwd
+/home/andrew/temp/stuff/things/frank/joe/alex
+andrew@andrewhp:~/temp/stuff/things/frank/joe/alex$ cd john/
+andrew@andrewhp:~/temp/stuff/things/frank/joe/alex/john$ pwd
+/home/andrew/temp/stuff/things/frank/joe/alex/john
+andrew@andrewhp:~/temp/stuff/things/frank/joe/alex/john$ cd ..
+andrew@andrewhp:~/temp/stuff/things/frank/joe/alex$ cd ..
+andrew@andrewhp:~/temp/stuff/things/frank/joe$ pwd
+/home/andrew/temp/stuff/things/frank/joe
+andrew@andrewhp:~/temp/stuff/things/frank/joe$ cd ..
+andrew@andrewhp:~/temp/stuff/things/frank$ cd ..
+andrew@andrewhp:~/temp/stuff/things$ pwd
+/home/andrew/temp/stuff/things
+andrew@andrewhp:~/temp/stuff/things$ cd ../ ../ ..
+bash: cd: too many arguments
+andrew@andrewhp:~/temp/stuff/things$ cd ../../..
+andrew@andrewhp:~$ pwd
+/home/andrew
+andrew@andrewhp:~$ cd temp/stuff/things/frank/joe/alex/john
+andrew@andrewhp:~/temp/stuff/things/frank/joe/alex/john$ pwd
+/home/andrew/temp/stuff/things/frank/joe/alex/john
+andrew@andrewhp:~/temp/stuff/things/frank/joe/alex/john$ cd ../../../../../../../
+andrew@andrewhp:~$ pwd
+/home/andrew
+andrew@andrewhp:~$
+# exercise 5
+andrew@andrewhp:~$ cd temp
+andrew@andrewhp:~/temp$ ls
+studd  stuff
+# in previous exercise had accidentally created a directory called "studd"
+andrew@andrewhp:~/temp$ cd stuff
+andrew@andrewhp:~/temp/stuff$ ls
+things
+andrew@andrewhp:~/temp/stuff$ cd things
+andrew@andrewhp:~/temp/stuff/things$ ls
+frank
+andrew@andrewhp:~/temp/stuff/things$ cd frank
+andrew@andrewhp:~/temp/stuff/things/frank$ ls
+joe
+andrew@andrewhp:~/temp/stuff/things/frank$ cd joe
+andrew@andrewhp:~/temp/stuff/things/frank/joe$ ls
+alex
+andrew@andrewhp:~/temp/stuff/things/frank/joe$ cd alex
+andrew@andrewhp:~/temp/stuff/things/frank/joe/alex$ ls
+john
+andrew@andrewhp:~/temp/stuff/things/frank/joe/alex$ cd john
+andrew@andrewhp:~/temp/stuff/things/frank/joe/alex/john$ ls
+andrew@andrewhp:~/temp/stuff/things/frank/joe/alex/john$ cd ..
+andrew@andrewhp:~/temp/stuff/things/frank/joe/alex$ ls
+john
+andrew@andrewhp:~/temp/stuff/things/frank/joe/alex$ cd ../../../
+andrew@andrewhp:~/temp/stuff/things$ ls
+frank
+andrew@andrewhp:~/temp/stuff/things$ cd ../../
+andrew@andrewhp:~/temp$ ls
+studd  stuff
+andrew@andrewhp:~/temp$ 
+# exercise 6
+andrew@andrewhp:~$ cd temp
+andrew@andrewhp:~/temp$ ls
+stuff
+andrew@andrewhp:~/temp$ cd stuff/things/frank/joe/alex/john/
+andrew@andrewhp:~/temp/stuff/things/frank/joe/alex/john$ cd ..
+andrew@andrewhp:~/temp/stuff/things/frank/joe/alex$ rmdir john
+andrew@andrewhp:~/temp/stuff/things/frank/joe/alex$ cd ..
+andrew@andrewhp:~/temp/stuff/things/frank/joe$ rmdir alex
+andrew@andrewhp:~/temp/stuff/things/frank/joe$ cd ..
+andrew@andrewhp:~/temp/stuff/things/frank$ ls
+joe
+andrew@andrewhp:~/temp/stuff/things/frank$ rmdir joe
+andrew@andrewhp:~/temp/stuff/things/frank$ cd ..
+andrew@andrewhp:~/temp/stuff/things$ ls
+frank
+andrew@andrewhp:~/temp/stuff/things$ rmdir frank
+andrew@andrewhp:~/temp/stuff/things$ cd ..
+andrew@andrewhp:~/temp/stuff$ ls
+things
+andrew@andrewhp:~/temp/stuff$ rmdir things
+andrew@andrewhp:~/temp/stuff$ cd ..
+andrew@andrewhp:~/temp$ ls
+stuff
+andrew@andrewhp:~/temp$ rmdir stuff
+andrew@andrewhp:~/temp$ pwd
+/home/andrew/temp
+# exercise 7
+andrew@andrewhp:~$ cd temp
+andrew@andrewhp:~/temp$ mkdir -p i/like/icecream
+andrew@andrewhp:~/temp$ pushd i/like/icecream
+~/temp/i/like/icecream ~/temp
+andrew@andrewhp:~/temp/i/like/icecream$ popd
+~/temp
+andrew@andrewhp:~/temp$ pwd
+/home/andrew/temp
+andrew@andrewhp:~/temp$ pushd i/like
+~/temp/i/like ~/temp
+andrew@andrewhp:~/temp/i/like$ pwd
+/home/andrew/temp/i/like
+andrew@andrewhp:~/temp/i/like$ pushd icecream
+~/temp/i/like/icecream ~/temp/i/like ~/temp
+andrew@andrewhp:~/temp/i/like/icecream$ pwd
+/home/andrew/temp/i/like/icecream
+andrew@andrewhp:~/temp/i/like/icecream$ popd
+~/temp/i/like ~/temp
+andrew@andrewhp:~/temp/i/like$ pwd
+/home/andrew/temp/i/like
+andrew@andrewhp:~/temp/i/like$ popd
+~/temp
+andrew@andrewhp:~/temp$ pushd i/like/icecream 
+~/temp/i/like/icecream ~/temp
+andrew@andrewhp:~/temp/i/like/icecream$ pushd
+~/temp ~/temp/i/like/icecream
+andrew@andrewhp:~/temp$ pwd
+/home/andrew/temp
+andrew@andrewhp:~/temp$ pushd
+~/temp/i/like/icecream ~/temp
+andrew@andrewhp:~/temp/i/like/icecream$ pwd
+/home/andrew/temp/i/like/icecream
+andrew@andrewhp:~$ cd temp 
+andrew@andrewhp:~/temp$ touch iamcool.txt
+andrew@andrewhp:~/temp$ ls
+i  iamcool.txt  studd
+# exercise 8
+
+#exercise 9
+andrew@andrewhp:~$ cd temp
+andrew@andrewhp:~/temp$ cp iamcool.txt neat.txt
+andrew@andrewhp:~/temp$ ls
+i  iamcool.txt  neat.txt  studd
+andrew@andrewhp:~/temp$ cp neat.txt awesome.txt
+andrew@andrewhp:~/temp$ ls
+awesome.txt  i  iamcool.txt  neat.txt  studd
+andrew@andrewhp:~/temp$ cp awesome.txt thefourthfile.txt
+andrew@andrewhp:~/temp$ ls
+awesome.txt  i  iamcool.txt  neat.txt  studd  thefourthfile.txt
+andrew@andrewhp:~/temp$ mkdir something
+andrew@andrewhp:~/temp$ cp awesome.txt something/
+andrew@andrewhp:~/temp$ ls
+awesome.txt  iamcool.txt  something  thefourthfile.txt
+i            neat.txt     studd
+andrew@andrewhp:~/temp$ ls something/
+awesome.txt
+andrew@andrewhp:~/temp$ cp -r something newplace
+andrew@andrewhp:~/temp$ ls newplace/
+awesome.txt
+# exercise 10
+andrew@andrewhp:~$ cd temp
+andrew@andrewhp:~/temp$ mv awesome.txt uncool.txt
+andrew@andrewhp:~/temp$ ls
+i            neat.txt  something  thefourthfile.txt
+iamcool.txt  newplace  studd      uncool.txt
+andrew@andrewhp:~/temp$ mv newplace oldplace
+andrew@andrewhp:~/temp$ ls
+i            neat.txt  something  thefourthfile.txt
+iamcool.txt  oldplace  studd      uncool.txt
+andrew@andrewhp:~/temp$ mv oldplace newplace
+andrew@andrewhp:~/temp$ ls
+i            neat.txt  something  thefourthfile.txt
+iamcool.txt  newplace  studd      uncool.txt
+#exercise 11
+andrew@andrewhp:~/temp$ less ex12.txt
+andrew@andrewhp:~/temp$
+# exercise 12
+andrew@andrewhp:~$ less ex12.txt
+andrew@andrewhp:~$ cat ex13.txt
+what's up!
+#exercise 13
+andrew@andrewhp:~$ cd temp
+andrew@andrewhp:~/temp$ ls
+ex12.txt  iamcool.txt  newplace   studd              uncool.txt
+i         neat.txt     something  thefourthfile.txt
+andrew@andrewhp:~/temp$ rm uncool.txt
+andrew@andrewhp:~/temp$ ls
+ex12.txt  iamcool.txt  newplace   studd
+i         neat.txt     something  thefourthfile.txt
+andrew@andrewhp:~/temp$ rm iamcool.txt neat.txt thefourthfile.txt
+andrew@andrewhp:~/temp$ ls
+ex12.txt  i  newplace  something  studd
+andrew@andrewhp:~/temp$ cp -r something newplace
+andrew@andrewhp:~/temp$ rm something/awesome.txt
+andrew@andrewhp:~/temp$ rm -rf newplace
+andrew@andrewhp:~/temp$ ls
+ex12.txt  i  something  studd
+andrew@andrewhp:~/temp$ 
