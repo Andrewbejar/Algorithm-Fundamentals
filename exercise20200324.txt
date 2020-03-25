@@ -1,0 +1,854 @@
+    1  ifconfig
+    2  sudo apt install net-tools
+    3  sudo apt install update
+    4  sudo apt install upgrade
+    5  sudo apt install build-esential
+    6  sudp apt-get upgrade
+    7  sudo apt-get upgrade
+    8  sudo lshw -c network
+    9  clear
+   10  sudo apt install firmware-b43-installer
+   11  sudo apt-get install linux-headers-$(uname -r) build-essential git
+   12  gcc
+   13  python
+   14  python2
+   15  clear
+   16  git clone https://github.com/lwfinger/rtlwifi_new.git
+   17  cd rtlwifi_new/ && git checkout origin/extended -b extended
+   18  sudo make install
+   19  sudo modprobe -r rtl8723de
+   20  sudo modprobe rtl8723de
+   21  sudo modprobe -r rtl8723de
+   22  sudo modprobe rtl8723de
+   23  make && sudo make install
+   24  cd rtlwifi_new/ && git checkout origin/extended -b extended
+   25  make && sudo make install
+   26  sudo modprobe rtl8723de
+   27  sudo apt purge bcmwl-kernel-source
+   28  sudo sed -i '/blacklist bcma/ d' /etc/modprobe.d/blacklist.conf
+   29  sudo sed -i '/blacklist brcmsmac/ d' /etc/modprobe.d/blacklist.conf
+   30  clear
+   31  sudo modprobe rtl8723de
+   32  sudo modprobe -r rtl8723de && sleep 5 && sudo modprobe rtl8723de ant_sel=1
+   33  sudo modprobe -r rtl8723de && sleep 5 && sudo modprobe rtl8723de ant_sel=2
+   34  python3
+   35  clear
+   36  sudo apt-get install build-essential
+   37  sudo apt-get update
+   38  sudo apt-get upgrade
+   39  python
+   40  sudo apt install python
+   41  python
+   42  python3
+   43  sudo apt-get build-essential
+   44  sudo apt-get install build-essential
+   45  gcc
+   46  clear
+   47  nano
+   48  dir
+   49  mkdir c
+   50  cd c
+   51  nano holamundo.c
+   52  clear
+   53  gcc holamundo.c
+   54  ./a.out
+   55  clear
+   56  ls
+   57  gcc prime.c
+   58  ./a.out
+   59  clear
+   60  gcc prime.c
+   61  ./a.out
+   62  gcc prime.c
+   63  ./a.out
+   64  clear
+   65  gcc prime.c
+   66  ./a.out
+   67  clear
+   68  gcc prime.c
+   69  ./a.out
+   70  python2
+   71  clear
+   72  python2
+   73  python
+   74  python3
+   75  python3 holamundo.py
+   76  clear
+   77  nano prime.c
+   78  nano holamundo.py
+   79  g++
+   80  sudo
+   81  sudo apt-get update
+   82  clear
+   83  nano summary.txt
+   84  nano Addition.c
+   85  nano FizzBuzzTests.c
+   86  nano Hypotenuse.c
+   87  gcc Addition.c
+   88  12 34
+   89  gcc Addition.c
+   90  ./a.out
+   91  clear
+   92  gcc Addition.c
+   93  ./a.out 23 56
+   94  clear
+   95  gcc Addition.c
+   96  ./a.out
+   97  clear
+   98  ./a.out
+   99  clear
+  100  gcc Addition.c
+  101  ./a.out
+  102  gcc Addition.c
+  103  ./a.out
+  104  gcc FizzBuzzTests.c
+  105  ./a.out
+  106  gcc FizzBuzzTests.c
+  107  ./a.out
+  108  gcc FizzBuzzTests.c
+  109  ./a.out
+  110  gcc Hypotenuse.c
+  111  ./a.out
+  112  gcc Hypotenuse.c
+  113  ./a.out
+  114  gcc Hypotenuse.c
+  115  gcc Hypotenuse.c -lm
+  116  ./a.out
+  117  gcc Hypotenuse.c -lm
+  118  ./a.out
+  119  gcc LeapYear.c
+  120  ./a.out
+  121  clear
+  122  gcc PrimeNumbers.c
+  123  ./a.out
+  124  gcc PrimeNumbers.c
+  125  ./a.out
+  126  gcc PrimeNumbers.c
+  127  ./a.out
+  128  gcc PrimeNumbers.c
+  129  ./a.out
+  130  gcc PrimeNumbers.c
+  131  ./a.out
+  132  gcc PrimeNumbers.c
+  133  ./a.out
+  134  gcc PrimeNumbers.c
+  135  ./a.out
+  136  gcc PrimeNumbers.c
+  137  ./a.out
+  138  gcc PrimeNumbers.c
+  139  ./a.out
+  140  gcc PrimeNumbers.c
+  141  ./a.out
+  142  gcc PrimeNumbers.c
+  143  ./a.out
+  144  gcc PrimeNumbers.c
+  145  ./a.out
+  146  gcc PrimeNumbers.c
+  147  ./a.out
+  148  gcc PrimeNumbers.c
+  149  ./a.out
+  150  gcc PrimeNumbers.c
+  151  ./a.out
+  152  gcc PrimeNumbers.c
+  153  ./a.out
+  154  clear
+  155  gcc PrimeNumbers.c
+  156  ./a.out
+  157  gcc PrimeNumbers.c
+  158  ./a.out
+  159  gcc PrimeNumbers.c
+  160  ./a.out
+  161  gcc PrimeNumbers.c
+  162  ./a.out
+  163  gcc PrimeNumbers.c
+  164  ./a.out
+  165  gcc PrimeNumbers.c
+  166  ./a.out
+  167  gcc PrimeNumbers.c
+  168  ./a.out
+  169  gcc PrimeNumbers.c
+  170  ./a.out
+  171  gcc PrimeNumbers.c
+  172  ./a.out
+  173  gcc PrimeNumbers.c
+  174  ./a.out
+  175  gcc PrimeNumbers.c
+  176  ./a.out
+  177  gcc PrimeNumbers.c
+  178  ./a.out
+  179  gcc PrimeNumbers.c
+  180  ./a.out
+  181  gcc PrimeNumbers.c
+  182  ./a.out
+  183  gcc PrimeNumbers.c
+  184  ./a.out
+  185  gcc PrimeNumbers.c
+  186  ./a.out
+  187  gcc PrimeNumbers.c
+  188  ./a.out
+  189  clear
+  190  ls
+  191  cat prime.c
+  192  gcc PrimeNumbers.c
+  193  ./a.out
+  194  cat prime.c
+  195  gcc PrimeNumbers.c
+  196  ./a.out
+  197  gcc PrimeNumbers.c
+  198  ./a.out
+  199  gcc PrimeNumbers.c
+  200  ./a.out
+  201  gcc PrimeNumbers.c
+  202  ./a.out
+  203  cat prime.c
+  204  gcc PrimeNumbers.c
+  205  ./a.out
+  206  gcc PrimeNumbers.c
+  207  ./a.out
+  208  gcc PrimeNumbers.c
+  209  ./a.out
+  210  cat prime.c
+  211  cat Addition.c
+  212  gcc Addition.c
+  213  ./a.out
+  214  cat Hypotenuse.c
+  215  gcc FizzBuzzTest.c
+  216  ls
+  217  cat FizzBuzzTests.c
+  218  gcc FizzBuzzTests.c
+  219  ./a.out
+  220  nano LeapYear.c
+  221  gcc LeapYear.c
+  222  nano LeapYear.c
+  223  gcc LeapYear.c
+  224  ./a.out LeapYear.c
+  225  nano LeapYear.c
+  226  gcc LeapYear.c
+  227  ./a.out LeapYear.c
+  228  cat LeapYear.c
+  229  nano Capicua.c
+  230  nano PrimeNumbers.c 
+  231  ls
+  232  nano prime.c
+  233  cat PrimeNumbers.c
+  234  nano PrimeNumbers.c 
+  235  nano Sort3Num.c
+  236  ls
+  237  nano Sort3Num.c
+  238  gcc Sort3Num.c
+  239  10 
+  240  gcc Sort3Num.c
+  241  ./a.out
+  242  clear
+  243  gcc Sort3Num.c
+  244  ./a.out
+  245  clear
+  246  gcc Sort3Num.c
+  247  ./a.out
+  248  gcc Sort3Num.c
+  249  ./a.out
+  250  gcc Sort3Num.c
+  251  ./a.out
+  252  nano Sort3Num.c
+  253  ls
+  254  ls
+  255  gcc Sort3Num.c
+  256  ./a.out
+  257  gcc Sort3Num.c
+  258  ./a.out
+  259  gcc Sort3Num.c
+  260  ./a.out
+  261  gcc Sort3Num.c
+  262  ./a.out
+  263  gcc pointers.c
+  264  ./a.out
+  265  gcc Pointers2.c
+  266  ./a.out
+  267  gcc Pointers2.c
+  268  ./a.out
+  269  gcc Pointers2.c
+  270  ./a.out
+  271  gcc Pointers2.c
+  272  ./a.out
+  273  gcc Pointers3.c
+  274  clear
+  275  gcc Pointers3.c
+  276  nano pointers.c
+  277  nano Pointers.c
+  278  nano Pointers2.c
+  279  nano Pointers3.c
+  280  nano AddMod.c
+  281  gcc 1.c -lm
+  282  clear
+  283  gcc 1.c -lm
+  284  ./a.out 1 2 3
+  285  gcc 1.c -lm
+  286  ./a.out 1 2 3
+  287  ./a.out 10 2 3
+  288  ./a.out 10 10 10
+  289  clear
+  290  ./a.out 10 10 10
+  291  10 11 1111
+  292  ./a.out 10 100 100
+  293  gcc 1.c -lm
+  294  ./a.out 10 100 100
+  295  ./a.out 10 10 10
+  296  gcc 1.c -lm
+  297  ./a.out 10 10 10
+  298  ./a.out 10 7.1 7.1
+  299  ./a.out 10 7.071 7.071
+  300  nano 1-c
+  301  nano 1.c
+  302  nano 2.c
+  303  gcc 2.c
+  304  ./a.out 1 2 3 4 5 6 7 8
+  305  ./a.out 1 2 3 4 5 6 7 8 9 10 11
+  306  gcc 2.c
+  307  ./a.out 1 2 3 4 5 6 7 8 9 10 11
+  308  gcc 2.c
+  309  ./a.out 1 2 3 4 5 6 7 8 9 10 11 , 1 2 3 4 5 
+  310  gcc 2.c
+  311  ./a.out 1 2 3 4 5 6 7 8 9 10 11 , 1 2 3 4 5 
+  312  ./a.out 1 2 3 4 5 6 7 8 9
+  313  gcc 2.c
+  314  ./a.out 1 2 3 4 5 6 7 8 9
+  315  ./a.out 1 2 3 4 5 6 7 8 9 ,
+  316  gcc 2.c
+  317  gcc 2.c
+  318  gcc 2.c
+  319  ./a.out 1 2 3 4 5 6 7 8 9 10 11 , 1 2 3 4 5 
+  320  ./a.out 1 2 3 4 5 6 7 8 9 101 1 2 2 
+  321  gcc 2.c
+  322  ./a.out 1 2 3 4 5 6 7 8 9 10 11 , 1 2 3 4 5 
+  323  gcc 2.c
+  324  ./a.out 1 2 3 4 5 6 7 8 9 10 11 20 2 3
+  325  gcc 2.c
+  326  ./a.out 1 2 3 4 5 6 7 8 9 10 11 20 1 2 3 4 5 6 7
+  327  gcc 2.c
+  328  ./a.out 1 2 3 20 4 5 6
+  329  ./a.out
+  330  ./a.out 1 2 3 20 4 5 6
+  331  gcc 2.c
+  332  ./a.out 1 2 3 20 4 5 6
+  333  nano examen.c
+  334  nano AddMod.c
+  335  nano HypMod.c
+  336  nano CounterF.c
+  337  nano SwapTwoNumbersF.c
+  338  nano SwapTwoNumbers.c
+  339  nano CounterF.c
+  340  cat SwapTwoNumbers.c
+  341  nano SwapTwoNumbersF.c
+  342  nano CounterF.c
+  343  nano SwapTwoNumbersF.c
+  344  nano CounterF.c
+  345  ls
+  346  nano AddMod.c 
+  347  nano AddMod.c.save
+  348  nano AddMod.c
+  349  nano prime.c
+  350  ls
+  351  nano AddMod.c
+  352  gcc AddMod.c
+  353  nano AddMod.c
+  354  gcc AddMod.c
+  355  nano AddMod.c
+  356  gcc AddMod.c
+  357  nano AddMod.c
+  358  gcc AddMod.c
+  359  ./a.out 5 8
+  360  clear
+  361  gcc AddMod.c
+  362  ./a.out 50 51
+  363  ls
+  364  cat Addition.c
+  365  cat Hypotenuse.c
+  366  gcc HypMod.c
+  367  gcc HypMod.c -lm
+  368  ./a.out 2 3
+  369  clear
+  370  gcc HypMod.c -lm
+  371  ./a.out 2 3
+  372  gcc CounterF.c
+  373  ./a.out 5 8
+  374  gcc CounterF.c
+  375  ./a.out 45 54
+  376  gcc SwapTwoNumbers.c
+  377  gcc SwapTwoNumbersF.c
+  378  ./a.out 5 3
+  379  gcc CounterF.c
+  380  ./a.out 
+  381  gcc CounterF.c
+  382  ./a.out 
+  383  gcc CounterF.c
+  384  ./a.out 
+  385  gcc CounterF.c
+  386  ./a.out 
+  387  gcc CounterF.c
+  388  git
+  389  mkdir git_andrew
+  390  cd git_andrew
+  391  cd .thunderbird/
+  392  cd .thunderbird
+  393  cd thunderbird
+  394  git init 
+  395  ls .git
+  396  ls .*
+  397  git config -- global user.name "Andrew Arana"
+  398  git config --global user.name "Andrew Arana"
+  399  git config --global user.email andressarana@hotmail.com
+  400  git config --list
+  401  nano example.c
+  402  git status 
+  403  git add example.c
+  404  git status 
+  405  nano example2.c
+  406  git status 
+  407  git add example2.c
+  408  vim
+  409  ::q
+  410  git commit
+  411  git commit "my first commit"
+  412  git commit -m "my first commit"
+  413  nano example2.c
+  414  diff example2.c
+  415  history 
+  416  git diff example2.c
+  417  clear
+  418  cd ..
+  419  ls
+  420  history
+  421  sudo modprobe -r rtl8723de && sleep 5 && sudo modprobe rtl8723de ant_sel=2
+  422  ls
+  423  sudo modprobe -r rtl8723de && sleep 5 && sudo modprobe rtl8723de ant_sel=3
+  424  nano multi.c
+  425  gcc multi.c
+  426  ./a.out 1 2 3 4 5 8.88 6 7 8 9 10
+  427  ./a.out 1 2 3 8.88 4 5
+  428  history
+  429  sudo modprobe -r rtl8723de && sleep 5 && sudo modprobe rtl8723de ant_sel=3
+  430  sudo modprobe -r rtl8723de && sleep 5 && sudo modprobe rtl8723de ant_sel=4
+  431  ls
+  432  python
+  433  clear
+  434  python3 holamundo.py
+  435  Andrew is the best > holamundo.py
+  436  echo "hola mundo"
+  437  "Andre is the best" > holamundo.py
+  438  echo "Hola mundo" 
+  439  echo "hola mundo" > holamundo.py
+  440  cat holamundo.py
+  441  python3 holamundo.py
+  442  clear
+  443  sudo apt-get install jupyter
+  444  sudo modprobe -r rtl8723de && sleep 5 && sudo modprobe rtl8723de ant_sel=4
+  445  sudo modprobe -r rtl8723de && sleep 5 && sudo modprobe rtl8723de ant_sel=5
+  446  gcc ascii.c
+  447  ./a.out
+  448  gcc ascii.c
+  449  ./a.out
+  450  gcc ascii.c
+  451  ./a.out
+  452  gcc ascii.c
+  453  ./a.out
+  454  gcc ascii.c
+  455  ./a.out
+  456  gcc ascii.c
+  457  ./a.out
+  458  gcc ascii.c
+  459  ./a.out
+  460  gcc ascii.c
+  461  ./a.out
+  462  sudo modprobe -r rtl8723de && sleep 5 && sudo modprobe rtl8723de ant_sel=4
+  463  nano ascii.c
+  464  history
+  465  sudo modprobe -r rtl8723de && sleep 5 && sudo modprobe rtl8723de ant_sel=4
+  466  ls
+  467  nano Sort3Num.c
+  468  gcc Sort3Num.c
+  469  ./a.out
+  470  nano Capicua.c
+  471  gcc Capicua.c
+  472  nano Capicua.c
+  473  gcc Capicua.c
+  474  nano Capicua.c
+  475  gcc Capicua.c
+  476  nano Capicua.c
+  477  gcc Capicua.c
+  478  cqt Capicua.c
+  479  cat Capicua.c
+  480  gcc Capicua.c
+  481  nano Capicua.c
+  482  gcc Capicua.c
+  483  ./a.out
+  484  nano Capicua.c
+  485  gcc Capicua.c
+  486  nano Capicua.c
+  487  gcc Capicua.c
+  488  nano Capicua.c
+  489  gcc Capicua.c
+  490  ./a.out
+  491  nano Capicua.c
+  492  sudo modprobe -r rtl8723de && sleep 5 && sudo modprobe rtl8723de ant_sel=4
+  493  echo "# gitcheatsheet" >> README.MD
+  494  git init
+  495  git add README.md
+  496  clear
+  497  man echo
+  498  clear
+  499  echo "# cheatsheet" >> README.md
+  500  git init
+  501  git add README.md
+  502  git commit -m "first commit"
+  503  git remote add origin https://github.com/Andrewbejar/cheatsheet.git
+  504  git push -u origin master
+  505  nano ls
+  506  rm nano ls 
+  507  clear
+  508  nano gitchap2summ.txt
+  509  clear
+  510  git init 
+  511  sudo modprobe -r rtl8723de && sleep 5 && sudo modprobe rtl8723de ant_sel=4
+  512  nano gitchap2summ.txt
+  513  sudo modprobe -r rtl8723de && sleep 5 && sudo modprobe rtl8723de ant_sel=4
+  514  nano Chapter2and3S.md
+  515  rm nano Chapter2and3S.md
+  516  rm Chapter2and3S.c
+  517  rm Chapter2and3S.md
+  518  cler
+  519  clear
+  520  sudo modprobe -r rtl8723de && sleep 5 && sudo modprobe rtl8723de ant_sel=4
+  521  ls
+  522  nano ex/.c
+  523  rm  ex/.c
+  524  rm -m ex/.c
+  525  clear
+  526  ls
+  527  nano ex7.c
+  528  mkdir Algorithms
+  529  cd Algorithms
+  530  ex7.c
+  531  clear
+  532  nano ex7.c
+  533  nano ex8.c
+  534  gcc ex8.c
+  535  ./a.out
+  536  nano ex8.c
+  537  gcc ex8.c
+  538  ./a.out
+  539  gcc ex9.c
+  540  nano ex9.c
+  541  gcc ex9.c
+  542  nano ex9.c
+  543  gcc ex9.c
+  544  nano ex9.c
+  545  gcc ex9.c
+  546  nano ex9.c
+  547  gcc ex9.c
+  548  ./a.out
+  549  nano ex10.c
+  550  nano ex11.c
+  551  nano ex12.c
+  552  nano ex13.c
+  553  nano ex15.c
+  554  nano ex14.c
+  555  nano ex15.c
+  556  nano ex7.c
+  557  gcc ex7.c
+  558  nano ex7.c
+  559  gcc ex7.c
+  560  nano ex7.c
+  561  gcc ex7.c
+  562  nano ex7.c
+  563  gcc ex7.c
+  564  clear
+  565  gcc ex7.c
+  566  nano ex7.c
+  567  gcc ex7.c
+  568  nano ex7.c
+  569  gcc ex7.c
+  570  ./a.out
+  571  nano ex7.c
+  572  gcc ex7.c
+  573  nano ex7.c
+  574  gcc ex7.c
+  575  ./a.out
+  576  nano ex7.c
+  577  nano ex8.c
+  578  ls
+  579  git init 
+  580  git add 
+  581  git add .
+  582  git status
+  583  git add -u a.out
+  584  git status
+  585  git commit "exercices 7 to 15"
+  586  git commit -m "exercices 7 to 15"
+  587  git remote add origin https://github.com/Andrewbejar/Fundamental-Algorithms.git
+  588  git push -u origin master
+  589  history
+  590  git push -u origin master
+  591  git status
+  592  git init 
+  593  git status
+  594  clear
+  595  git init 
+  596  git add .
+  597  git status 
+  598  git push -u origin master
+  599  git remote add origin https://github.com/Andrewbejar/Algorith-Fundamentals.git
+  600  git remote add origin https://github.com/Andrewbejar/Algorithm-Fundamentals.git
+  601  gish push origin master
+  602  git push origin master
+  603  git remote add origin https://github.com/Andrewbejar/Fundamental-Algorithms.git
+  604  git push origin master
+  605  clear
+  606  git remote rm origin 
+  607  git remote show
+  608  git remote add origin https://github.com/Andrewbejar/Fundamental-Algorithms.git
+  609  git status
+  610  git push origin master
+  611  clear
+  612  git remote show
+  613  git push -u origin master
+  614  git remote rm origin 
+  615  git remote add origin https://github.com/Andrewbejar/Algorithm-Fundamentals
+  616  git init 
+  617  git add .
+  618  git status 
+  619  git commit -m "# commit"
+  620  git remote add origin https://github.com/Andrewbejar/Algorithm-Fundamentals
+  621  git push -u origin master
+  622  sudo modprobe -r rtl8723de && sleep 5 && sudo modprobe rtl8723de ant_sel=4
+  623  clear
+  624  nano exercise.txt
+  625  pwd
+  626  nano exercise.txt
+  627  hostname
+  628  nano exercise.txt
+  629  mkdir temp
+  630  mkdir temp/stuff
+  631  mkdir temp/stuff/things
+  632  mkdir temp/stuff/things/frank/joe/alex/john
+  633  mkdir -p temp/studd/things/frank/joe/alex/john
+  634  nano exercise.txt
+  635  mkdir -p temp/stuff/things/frank/joe/alex/john
+  636  nano exercise.txt
+  637  clear
+  638  cd temp
+  639  pwd
+  640  cd stuff
+  641  pwd
+  642  cd things
+  643  pwd
+  644  cd frank
+  645  cd ..
+  646  cd frank/
+  647  pwd
+  648  cd joe/
+  649  PWD
+  650  pwd
+  651  cd alex/
+  652  pwd
+  653  cd john/
+  654  pwd
+  655  cd ..
+  656  pwd
+  657  cd ..
+  658  pwd
+  659  cd ../ ../ ..
+  660  cd ../../..
+  661  pwd
+  662  cd temp/stuff/things/frank/joe/alex/john
+  663  pwd
+  664  cd ../../../../../../../
+  665  pwd
+  666  nano exercise.txt
+  667  clear
+  668  cd temp
+  669  ls
+  670  cd stuff
+  671  ls
+  672  cd things
+  673  ls
+  674  cd frank
+  675  ls
+  676  cd joe
+  677  ls
+  678  cd alex
+  679  ls
+  680  cd john
+  681  ls
+  682  cd ..
+  683  ls
+  684  cd ../../../
+  685  ls
+  686  cd ../../
+  687  ls
+  688  nano exercise.txt
+  689  ls
+  690  cd ..
+  691  nano exercise.txt
+  692  clear
+  693  cd temp
+  694  ls
+  695  cd stuff/things/frank/joe/alex/john/
+  696  cd ..
+  697  rm dir john
+  698  rmdir john
+  699  cd ..
+  700  ls
+  701  rmdir alex
+  702  ls
+  703  cd ..
+  704  ls
+  705  rmdir joe
+  706  cd ..
+  707  ls
+  708  rmdir frank
+  709  cd ..
+  710  ls
+  711  rmdir things
+  712  cd ..
+  713  ls
+  714  rmdir studd
+  715  rmdir stuff
+  716  rmdir studd
+  717  pwd
+  718  cd temp
+  719  cd ..
+  720  cd temp
+  721  cd ..
+  722  nano exercise.txt
+  723  clear
+  724  cd temp
+  725  mkdir -p i/like/icecream
+  726  pushd i/like/icecream
+  727  popd
+  728  pwd
+  729  pushd i/like
+  730  pwd
+  731  pushd icecream
+  732  pwd
+  733  popd
+  734  pwd
+  735  popd
+  736  pushd i/like/icecream 
+  737  pushd
+  738  pwd
+  739  pushd
+  740  pwd
+  741  cd ..
+  742  nano exercise.txt
+  743  clear
+  744  cd temp 
+  745  touch iamcool.txt
+  746  ls
+  747  rmdir studd
+  748  nano exercise.txt
+  749  cd ..
+  750  nano exercise.txt
+  751  clear
+  752  cd temp
+  753  cd iamcool.txt neat.txt
+  754  ls
+  755  cp iamcool.txt neat.txt
+  756  ls
+  757  cp neat.txt awesome.txt
+  758  ls
+  759  cp awesome.txt thefourthfile.txt
+  760  ls
+  761  cp awesome.txt something/
+  762  mkdir something
+  763  cp awesome.txt something/
+  764  ls
+  765  ls something/
+  766  cp -r something newplace
+  767  ls newplace/
+  768  andrew@andrewhp:~$ cd temp
+  769  andrew@andrewhp:~/temp$ cd iamcool.txt neat.txt
+  770  bash: cd: too many arguments
+  771  andrew@andrewhp:~/temp$ ls
+  772  i  iamcool.txt  studd
+  773  andrew@andrewhp:~/temp$ cp iamcool.txt neat.txt
+  774  andrew@andrewhp:~/temp$ ls
+  775  i  iamcool.txt  neat.txt  studd
+  776  andrew@andrewhp:~/temp$ cp neat.txt awesome.txt
+  777  andrew@andrewhp:~/temp$ ls
+  778  awesome.txt  i  iamcool.txt  neat.txt  studd
+  779  andrew@andrewhp:~/temp$ cp awesome.txt thefourthfile.txt
+  780  andrew@andrewhp:~/temp$ ls
+  781  awesome.txt  i  iamcool.txt  neat.txt  studd  thefourthfile.txt
+  782  andrew@andrewhp:~/temp$ cp awesome.txt something/
+  783  cp: cannot create regular file 'something/': Not a directory
+  784  andrew@andrewhp:~/temp$ mkdir something
+  785  andrew@andrewhp:~/temp$ cp awesome.txt something/
+  786  andrew@andrewhp:~/temp$ ls
+  787  awesome.txt  iamcool.txt  something  thefourthfile.txt
+  788  i            neat.txt     studd
+  789  andrew@andrewhp:~/temp$ ls something/
+  790  awesome.txt
+  791  andrew@andrewhp:~/temp$ cp -r something newplace
+  792  }andrew@andrewhp:~/temp$ ls newplace/
+  793  awesome.txt
+  794  cd ..
+  795  nano exercise.txt
+  796  clear
+  797  cd temp
+  798  mv awesome.txt uncool.txt
+  799  ls
+  800  mv newplace oldplace
+  801  ls
+  802  mv oldplace newplace
+  803  ls
+  804  cd ..
+  805  nano exercise.txt
+  806  clear
+  807  less ex12.txt
+  808  cp temp/
+  809  cp ex12.txt temp/
+  810  cd temp
+  811  cd ex12.txt
+  812  cp ex12.txt
+  813  cp --help
+  814  clear
+  815  cd ..
+  816  touch ex12.txt temp/
+  817  less ex12.txt
+  818  cd temp 
+  819  ex12.txt
+  820  ls
+  821  touch ex12.txt
+  822  ls
+  823  ex12.txt
+  824  nano ex12.txt
+  825  less ex12.txt
+  826  cd ..
+  827  nano exercise.txt
+  828  clear
+  829  ls
+  830  nano ex12.txt
+  831  clear
+  832  less ex13.txt
+  833  ls
+  834  nano ex13.txt
+  835  clear
+  836  less ex12.txt
+  837  cat ex13.txt
+  838  nano exercise.txt
+  839  clear
+  840  cd temp
+  841  ls
+  842  rm uncool.txt
+  843  ls
+  844  rm iamcool.txt neat.txt thefourthfile.txt
+  845  ls
+  846  cp -r something newplace
+  847  rm something/awesome.txt
+  848  rm -rf newplace
+  849  ls
+  850  cd ..
+  851  nano exercise.txt
+  852  nano exercise20200324.txt
+  853  history > exercise20200324.txt
+  854  history>exercise20200324.txt
