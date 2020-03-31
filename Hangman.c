@@ -1,63 +1,59 @@
 #include <stdio.h>
 #include <string.h>
 
-#define tt 6
+#define tt 6 //total tries
 
 int main()
 {
 
-    char w1[3]= "bis";
-    int i,counter,letters=0,tries=0,ils=0;
+    char w1[6]= "andrew"; //word 1
+    int i,j,counter,letters=0,tries=5,ils=0; //incorrect letters
     char guess;
 
-printf("The secret word is:\n");
+    printf("The secret word is:\n");
 
     letters = strlen(w1);
-    char vl[letters];
-
+    char vl[letters]; //visible letters
 
     for(counter=0;counter<letters; counter++)
     {
 
         vl[counter]= '*';
-	vl[letters]='\0';
     }
+    vl[letters]='\0';
 
-    while(tries<tt)
+//print -> ***
+
+    printf("\nWORD: %s\n",vl);
+
+    while(tries>0)
     {
-	tries=tries+1;
 
-        printf("\nWORD: %s\n",vl);
-        printf( "Incorrect Guesses: %d\n",ils);
 	printf("\nGuess: ");
+        scanf(" %c",&guess);
 
-        scanf("%c",&guess);
+	j=0;
+	for(i=0;i<letters;i++)
+	{
+		if(guess==w1[i])
+		{
+			vl[i]=w1[i];
+			j++;
+		}
+	}
+	if(j==0)
+        {
+                tries--;
+                printf("Your guess is incorrect, dumb. Try again.");
+        }
 
-             if(guess!=w1[1]||guess!=w1[2]||guess!=w1[3])
-             {
-                 ils=ils+1;
-             }
+	printf("\nWORD: %s\n",vl);
+	if(strcmp(vl,w1)==0)
+	{
+		printf("YOU WON BRO\n");
+		break;
+	}
 
-	    if(guess==w1[1])
-	    {
-		vl[1]=w1[1];
-	    }
-
-	    if(guess==w1[2])
-	    {
-		vl[2]=w1[2];
-	    }
-
-	    if(guess==w1[3])
-	    {
-		vl[3]=w1[3];
-	    }
-
-	    if(vl==w1)
-	    {
-	    printf("\nHooray you did it!\n");
-	    break;
-            }
     }
 
     return 0;
