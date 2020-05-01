@@ -1,0 +1,150 @@
+ 1976  ls
+ 1977  nano PrimeNumbers.c
+ 1978  prime.c
+ 1979  nano prime.c
+ 1980  nano SwapTwoNumbersF.c
+ 1981  nano prime.c
+ 1982  gcc prime.c
+ 1983  gcc PrimeNumbers.c
+ 1984  ./a.out
+ 1985  nano PrimeNumbers.c
+ 1986  rm prime.c
+ 1987  nano PrimeNumbers.c
+ 1988  clear
+ 1989  ls
+ 1990  cat factoresprimos.c
+ 1991  clear
+ 1992  ls
+ 1993  nano PrimeNumbers.c
+ 1994  nano perfectnumber.c
+ 1995  gitchapter2.txt
+ 1996  nano gitchapter2.txt
+ 1997  nano gitchapter3.txt
+ 1998  nano max4num.c
+ 1999  nano ptr_update.c
+ 2000  nano ptr_updatefunction.c
+ 2001  ls
+ 2002  clr
+ 2003  clear
+ 2004  mkdir extempo3
+ 2005  cd extempo3
+ 2006  cd
+ 2007  ls
+ 2008  mv max4num.c ptr_update.c ../extempo3
+ 2009  mv max4num.c ../extempo3
+ 2010  mv max4num.c extempo3
+ 2011  mv ptr_updatefunction.c extempo3
+ 2012  cd extempo3
+ 2013  clear
+ 2014  ls
+ 2015  git init 
+ 2016  add *
+ 2017  git add *
+ 2018  st
+ 2019  git status
+ 2020  git commit -m "First commit"
+ 2021  push -u git remote add origin https://github.com/Andrewbejar/Algorithm-Fundamentals
+ 2022  git push -u git remote add origin https://github.com/Andrewbejar/Algorithm-Fundamentals
+ 2023  git push -u origin master
+ 2024  clear
+ 2025  git push -u origin master
+ 2026  git push -u git remote add origin https://github.com/Andrewbejar/Algorithm-Fundamentals
+ 2027  git remote add origin https://github.com/Andrewbejar/Algorithm-Fundamentals
+ 2028  git push -u origin master
+ 2029  git clone https://github.com/Andrewbejar/Algorithm-Fundamentals extempo3 
+ 2030  git add *
+ 2031  git add .
+ 2032  status
+ 2033  git status
+ 2034  git commit "first commit"
+ 2035  git commit -m "first commit"
+ 2036  git -u push origin master
+ 2037  git push -u  origin master
+ 2038  git push -u origin master
+ 2039  git remote add origin https://github.com/Andrewbejar/Algorithm-Fundamentals
+ 2040  git push -u origin master
+ 2041  clear
+ 2042  git push -u origin master
+ 2043  git push origin master
+ 2044  cd
+ 2045* git clone error: failed to push some refs to 'https://github.com/Andrewbejar/Algorithm-Fundame
+ 2046  git clone https://github.com/Andrewbejar/Algorithm-Fundamentals extempo3
+ 2047  cd extempo3
+ 2048  git status
+ 2049  git init 
+ 2050  ls
+ 2051  git init
+ 2052  git add extempo3
+ 2053  git status
+ 2054  cd
+ 2055  clear
+ 2056  git init
+ 2057  git add extempo3
+ 2058  git status
+ 2059  git commit -m "New commit"
+ 2060  git push -u origin master
+ 2061  git add extempo3/
+ 2062  git commit -m "new commit"
+ 2063  clear
+ 2064  git add extempo3/
+ 2065  git status
+ 2066  clear
+ 2067  cd extempo3
+ 2068  ls
+ 2069  git submodule add https://github.com/Andrewbejar/Algorithm-Fundamentals
+ 2070  git init 
+ 2071  git add extempo3/
+ 2072  git status
+ 2073  git add extempo3
+ 2074  git status
+ 2075  git ls
+ 2076  ls
+ 2077  cd
+ 2078  clear
+ 2079  git submodule add https://git-scm.com/book/en/v2/Git-Tools-Submodules
+ 2080  git add extempo3
+ 2081  git status
+ 2082  git submodule update
+ 2083  git status
+ 2084  git add extempo/submod
+ 2085  git add extempo3/submod
+ 2086  git add extempo3
+ 2087  git status
+ 2088  git add FizzBuzzTests.c extempo3
+ 2089  git status
+ 2090  git checkout extempo3
+ 2091  git status
+ 2092  git commit -m "new commit"
+ 2093  git push -u origin master
+ 2094  git git rm --cached extempo3
+ 2095  git rm --cached extempo3
+ 2096  git submodule add git https://github.com/Andrewbejar/Algorithm-Fundamentals
+ 2097  git submodule add git https://github.com/Andrewbejar/Algorithm-Fundamentals/extempo3
+ 2098  git submodule add git https://github.com/Andrewbejar/Algorithm-Fundamentals/
+ 2099  git status
+ 2100  git add extempo3
+ 2101  git status
+ 2102  clear
+ 2103  ls
+ 2104  git extempo3
+ 2105  cd extempo3
+ 2106  ls
+ 2107  nano ptr_updatefunction.c
+ 2108  cgg  ptr_updatefunction.c
+ 2109  gcc  ptr_updatefunction.c
+ 2110  clear
+ 2111  cd
+ 2112  git status
+ 2113  git checkout extempo3
+ 2114  git status
+ 2115  clear
+ 2116  nano max4numnh.c
+ 2117  gcc max4numnh.c
+ 2118  ./a.out
+ 2119  clear
+ 2120  git init 
+ 2121  git status
+ 2122  git rm --cached extempo3
+ 2123  git status
+ 2124  $    history | tail -n 150 > extempohistory.txt
+ 2125  history | tail -n 150 > extempohistory.txt
