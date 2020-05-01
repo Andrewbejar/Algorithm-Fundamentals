@@ -5,7 +5,7 @@ int main()
 {
 	int i=1;
 
-	for(i=1;i<=200;i++)
+	for(i=0;i<=200;i++)
 	{
 		if(i%15==0)
 		{
