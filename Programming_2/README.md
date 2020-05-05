@@ -6,7 +6,7 @@
 * [Pinelo Jason](https://github.com/JasonPinelo95)
 * Valdez Karla
 
-* Programming Paradigm
+# **Programming Paradigm**
 * A programming paradigm is simply a style of programming. Each paradigm varies depending on the specific needs of the programmer. 
 
 ## Classification of programing paradigms
