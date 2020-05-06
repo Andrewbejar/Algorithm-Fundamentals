@@ -21,7 +21,7 @@
 
 * Template-based:  Programming where templates are used by a compiler to generate temporary source code, which is merged by the compiler with the rest of the source code and then compiled
 
-* Structured: programming with clean, nested control structures rather than via gotos
+* Structured: programming with clean, nested control structures rather than via gotos. 
 
 # **Imperative**
 
